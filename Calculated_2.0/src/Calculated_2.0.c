@@ -36,13 +36,13 @@ int main()
 				for(int m=0;m<size;m++) printf("%lf ",Q[m]+W[m]);
 				printf("\n");
 			}
-			if (op == '-')		//операция вычитания векторов
+			else if (op == '-')		//операция вычитания векторов
 			{
 				printf("Разность векторов: ");
 				for (int m=0; m<size;m++) printf("%lf ",Q[m]-W[m]);
 				printf("\n");
 			}
-			if (op == '*')		//операция умножения векторов
+			else if (op == '*')		//операция умножения векторов
 			{
 				printf("Скалярное произведение векторов: ");
 				for (int m=0; m<size;m++) printf("%lf ",Q[m]*W[m]);
