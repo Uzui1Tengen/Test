@@ -96,8 +96,7 @@ int main(void)
 			}
 		}
 
-	}while (t == 'y');       // Остановка программы
-
 	fclose(input);
 	fclose(output);
+	}while (t == 'y');       // Остановка программы
 }
